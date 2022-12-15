@@ -1,0 +1,182 @@
+body
+{
+    background-color: #36393e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+}
+
+#title 
+{
+    font-size: 250%;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 7.5%;
+    padding-bottom: 10%;
+}
+
+#main-panel-title
+{
+    color: aliceblue;
+    font-size: 200%;
+}
+
+#sidepanel-title
+{
+    font-size: 350%;
+    padding-bottom: 3%;
+}
+
+.well {
+    background-color:#424549;
+    color: aliceblue;
+    border: 0px;
+}
+
+.hint {
+    font-size: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 5%;
+    border: 0px;
+    border-color: aliceblue;
+    border-style: dashed;
+}
+
+
+.col-sm-8
+{
+    background-color: #424549;
+    color: aliceblue;
+    height: 1000px;
+}
+
+#mainpanel-title
+{
+    font-size: 350%;
+    padding-top: 2.5%;
+    padding-bottom: 0%;
+}
+
+#raw-prognose
+{
+    display: inline;
+    font-size: 20px;
+}
+
+#PrognoseRaw
+{
+    display: inline;
+    font-size: 22px;
+}
+
+#Prognose
+{
+    display: inline;
+    font-size: 22px;
+}
+
+#div-raw
+{
+    padding-bottom: 2%;
+}
+
+#div-rounded
+{
+    padding-bottom: 5%;
+}
+
+#num_image
+{
+    text-align: center;
+    width: 50%;
+}
+
+.info-creditscore
+{
+    color: aliceblue;
+    font-size: medium;
+}
+
+#info
+{
+    padding-left: 0.75%;
+    padding-bottom: 3%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    opacity: 100%;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -50%;
+    left: 115%;
+    opacity: 75%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .form-group.shiny-input-container {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+label#Age-label {
+    display: none;
+}
+
+label#Annual_Income-label {
+    display: none;
+}
+
+label#Num_Bank_Accounts-label {
+    display: none;
+}
+
+label#Num_Credit_Card-label {
+    display: none;
+}
+
+label#Num_of_Delayed_Payment-label {
+    display: none;
+}
+
+label#Num_of_credit_requests-label {
+    display: none;
+}
+
+label#Outstanding_Debt-label {
+    display: none;
+}
+
+label#Credit_History_Age-label {
+    display: none;
+}
+
+label#Monthly_rate-label {
+    display: none;
+}
+
+label#Amount_invested_monthly-label {
+    display: none;
+  }
+
+label#Monthly_Balance-label {
+    display: none;
+}
